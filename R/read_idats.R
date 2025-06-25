@@ -62,8 +62,8 @@ read_idats = function(idat_files, quiet = FALSE){
         stop("Unknown platform")
     }
 
-    manifest = ewastools:::MANIFESTS[[ platform ]]
-    controls = ewastools:::CONTROLS [[ platform ]]
+    manifest = ewastools.custom:::MANIFESTS[[ platform ]]
+    controls = ewastools.custom:::CONTROLS [[ platform ]]
 
     setDT(manifest)
     setDT(controls)
