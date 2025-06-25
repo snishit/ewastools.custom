@@ -54,7 +54,7 @@ read_idats = function(idat_files, quiet = FALSE){
         platform = "EPICv1"
          chr     = "chr38"
          mapinfo = "mapinfo38"
-    } else if(P == 1105209) {
+    } else if(P == 1114142) {
         platform = "EPICv2"
         chr      = "chr38"
         mapinfo  = "mapinfo38"
