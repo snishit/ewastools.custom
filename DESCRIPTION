@@ -1,4 +1,4 @@
-Package: ewastools
+Package: ewastools.custom
 Type: Package
 Title: EWAS Tools
 Version: 1.8.0
